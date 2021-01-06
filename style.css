@@ -57,6 +57,10 @@ header{
     text-decoration: underline;
     color: #7e7b7b;
 }
+.item-gmail a:visited, .item-image a:visited{
+    
+    color: #8d7eb9;
+}
 
 
 /* section main************** */
