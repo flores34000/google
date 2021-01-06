@@ -55,6 +55,7 @@ header{
 }
 .item-gmail a:hover, .item-image a:hover{
     text-decoration: underline;
+    color: #7e7b7b;
 }
 
 
@@ -76,7 +77,8 @@ main input{
     border-radius: 20px;
     border: 0.5px solid #4545453f;
     outline: none;
-    
+    padding-left: 15px;
+    font-size: 20px;
 }
 main input:hover{
     box-shadow: 1px 2px 5px #45454571;
@@ -140,6 +142,9 @@ font-size: 12px;
 .footer-droit a, .footer-gauche a{
     color: #454545a1;
     margin-right: 10px;
+}
+.footer-droit a:hover, .footer-gauche a:hover{
+    text-decoration: underline
 }
 
 @media all and (max-width: 900px)
